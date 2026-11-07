@@ -1,0 +1,41 @@
+{
+  "id": "voz-grave-narrador-ptbr-v1",
+  "nome": "Narrador Grave PT-BR (v1)",
+  "idioma": "pt-BR",
+  "descricao": "Voz masculina adulta, grave (barítono-baixo), sotaque brasileiro neutro, narração de vídeos de curiosidades/história em tom de contador de histórias. Inspirada num áudio de referência, mas levemente alterada: um pouco mais grave, timbre levemente mais escuro e ritmo um pouco mais pausado.",
+  "referencia_medida": {
+    "duracao_s": 122.9,
+    "f0_mediana_hz": 98,
+    "f0_p10_p90_hz": [77, 157],
+    "faixa_entonacao_semitons": 16,
+    "formantes_mediana_hz": { "F1": 485, "F2": 1555, "F3": 2479, "F4": 3671 },
+    "energia_graves_vs_medios_db": 18.5,
+    "observacao": "Áudio com trilha de fundo contínua; jitter/shimmer/HNR ficaram contaminados e não foram usados."
+  },
+  "alvo_alterado": {
+    "f0_mediana_hz": 92,
+    "deslocamento_tom_semitons": -1.0,
+    "deslocamento_formantes": 0.97,
+    "faixa_entonacao_semitons": 13,
+    "velocidade_relativa": 0.95,
+    "pausas": "pausas curtas (0,3–0,5 s) entre frases; pausa maior (0,7–1 s) antes de revelações",
+    "textura": "levemente aveludada, com um pouco de ar no final das frases; sem rouquidão forte",
+    "presenca": "voz próxima do microfone (efeito de proximidade), graves cheios, agudos suaves"
+  },
+  "estilo": {
+    "persona": "contador de histórias experiente, confiante, levemente irônico, como quem conta uma curiosidade no bar",
+    "emocao_base": "calmo e envolvente, com curiosidade",
+    "enfase": "destaca palavras-chave descendo o tom, não subindo; finais de frase descendentes",
+    "proibido": ["tom de locutor de rádio exagerado", "voz robótica", "agudos estridentes", "entonação de pergunta em frases afirmativas"]
+  },
+  "sotaque": {
+    "base": "português brasileiro, pronúncia neutra/padrão de narração",
+    "tracos": [
+      "'s' em final de sílaba como [s] (não chiado carioca) — ajuste se o original for chiado",
+      "'r' em final de sílaba aspirado/suave [h]",
+      "'t' e 'd' antes de 'i' palatalizados (tchi/dji)",
+      "vogais abertas bem articuladas, sem nasalidade exagerada",
+      "'l' final vocalizado como [w] (Brasil = Brasiu)"
+    ]
+  }
+}
